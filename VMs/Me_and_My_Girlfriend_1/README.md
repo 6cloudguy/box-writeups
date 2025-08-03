@@ -49,7 +49,7 @@ Couldn’t find anything obvious, so I explored hidden directories. Found a hidd
 ![img](./ss/ls.png)\
 Inside the `my_secret` folder – flag1.txt: `gfriEND{2f5f21b2af1b8c3e227bcf35544f8f09}` and a note \
 (poor Bob):  
-![img](./ss/flag1.png)\
+![img](./ss/flag1.png)
 
 ## Step 8: Privilege Escalation
 Checked sudo permissions – saw Alice can run PHP as root:  
@@ -58,7 +58,7 @@ Upgraded to root with the following command as PHP is sudo-able:
 ```bash
 sudo php -r 'system("/bin/bash");'
 ```  
-![img](./ss/php.png)\
+![img](./ss/php.png)
 
 ### Alternative method:
 ```bash
