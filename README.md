@@ -1,2 +1,2 @@
 # box-writeups
-Writeups for vulnerable boxes I did as part of my cybersec journey
+Writeups of CTF-style boxes platforms like vulnhub, HTB etc. Focused on enumeration, exploitation, and privilege escalation. For educational purposes only.
