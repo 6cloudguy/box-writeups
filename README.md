@@ -15,7 +15,7 @@ All writeups are created for **educational purposes** only.
 
 | Box Name   | Difficulty | OS      | Writeup Link                    |Box link|
 |----------|------------|---------|---------------------------------|--------|
-| Me & My Girlfriend 1  | Easy    | Linux | [Click here]() | [Click here](https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/){:target="_blank"}
+| Me & My Girlfriend 1  | Easy    | Linux | [Click here]() | <a href="https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/" target="_blank"> Click here </a>
 
 ---
 
