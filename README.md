@@ -1,6 +1,6 @@
-# 🔍 Retired Box Writeups
+# 🔍 Writeups
 
-Writeups and technical breakdowns of **retired CTF-style boxes** from platforms like [VulnHub](vulnhub.com), [Hack The Box](https://hackthebox.com), etc.
+Writeups and technical breakdowns of **CTF-style boxes** from platforms like [VulnHub](vulnhub.com), [Hack The Box](https://hackthebox.com), etc.
 
 - 🛠️ Enumeration & Recon
 - 🎯 Exploitation Techniques
