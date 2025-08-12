@@ -19,7 +19,7 @@ Found a hidden message in the source:
 It hinted at using `X-Forwarded-For` header.
 
 ## Step 3: Using BurpSuite to Add Header
-I opened BurpSuite, intercepted the request and added the `x-forwarded-to` header:  
+I opened BurpSuite, intercepted the request and added the `x-forwarded-for` header:  
 ![img](./ss/burp.png)\
 Success! Gained access to "Ceban Corp":  
 ![img](./ss/ceban.png)
