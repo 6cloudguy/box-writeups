@@ -1,6 +1,20 @@
 
-# Me and My Girlfriend 1: Walkthrough
+# Me and My Girlfriend 1
+## Box Description
+Description: This VM tells us that there are a couple of lovers namely Alice and Bob, where the couple was originally very romantic, but since Alice worked at a private company, "Ceban Corp", something has changed from Alice's attitude towards Bob like something is "hidden", And Bob asks for your help to get what Alice is hiding and get full access to the company!
 
+Difficulty Level: Beginner
+
+Notes: there are 2 flag files
+
+Learning: Web Application | Simple Privilege Escalation
+
+## Tools Used
+- arp-scan
+- nmap
+- burpsuite
+- web-dev tools
+## Enumeration
 To find the IP of the VM, I performed an ARP scan:  
 ![img](./ss/arp.png)\
 Found the IP: `192.168.122.3`
