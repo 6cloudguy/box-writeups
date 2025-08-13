@@ -15,8 +15,9 @@ First lets access the apache and see what it has to offer. And it seems that the
 ![img](./ss/site.png)\
 Now lets ffuf the dirs to see if there are any hidden dirs.
 ![img](./ss/ffuf.png)\
-From this we can suspect that this is a wordpress made server. Now lets dig into the site a bit more. And in the nav-bar, there are "About","Projects",and "Buscar"..... That felt off. So i googled it and sound that it meant search.
-Clicked it. Nothing popped up. 
+From this we can suspect that this is a wordpress made server.\
+Now lets dig into the site a bit more. And in the nav-bar(menu), there are "About","Projects",and "Buscar"..... That felt off. So i googled it and sound that it meant search.
+Clicked it. Nothing popped up. \
 ![img](./ss/buscar.png)\
 But we can see that in the url... there is a possible attack vector. So lets play with it for a min and check if we can find anything.\
 And BOOM!\
@@ -49,7 +50,7 @@ the kernel version is outdated and there are multiple exploits present for privi
 ![img](./ss/exploits.png)\
 now after looking in exploit db, i downloaded a "dirtycow" exploit and copied it to the vm.\
 ![img](./ss/cow.png)\
-NB: It may be possible to use other exploits and get the root as well.\
+NB: It should be possible to use other exploits and get the root as well.\
 ![img](./ss/tmp.png)\
 ![img](./ss/expftp.png)\
 Since there i couldnt find any way to get any proper shell, i assumed that it was most likely set that way. So i directly logged in the vm and compiled the exploit.\
@@ -68,3 +69,6 @@ Since I have the root, i printed the `proof.txt` flag\
 | Code injection → creds → shell | Command injection turned into usable credentials for FTP, which enabled resource upload and exploit delivery. |
 | Dirty COW still deadly         | The Dirty COW kernel exploit remains a potent local privilege escalation method—even on legacy kernels.       |
 | FTP is your friend             | FTP enabled me to transfer binaries/PoCs mid-exploit, bypassing web upload limitations.                      |
+
+Note: After completing the box, i went and searched for other writeups and found that others also use the VM directly.. So i think it is safe to assume that it was meant to be that way.
+- Another one down, more to go🎯.

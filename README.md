@@ -13,9 +13,10 @@ All writeups are created for **educational purposes** only.
 
 ## 📦 Index of Writeups
 
-| Box Name   | Difficulty | OS      | Writeup Link                    |Box link|
-|----------|------------|---------|---------------------------------|--------|
-| Me & My Girlfriend 1  | Easy    | Linux | [Click here](/VMs/Me_and_My_Girlfriend_1/README.md) | [Click here](https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/)|
+|       Box Name        | Difficulty |    OS   |                     Writeup Link                    |                        Box link                               |
+|-----------------------|------------|---------|-----------------------------------------------------|---------------------------------------------------------------|
+| Me & My Girlfriend 1  |    Easy    |  Linux  | [Click here](/VMs/Me_and_My_Girlfriend_1/README.md) | [Click here](https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/)|
+| Jangow01              | Easy       | Linux   | [Click here](/VMs/jangow1/README.md)                | [Click here](https://www.vulnhub.com/entry/jangow-101,754/)   |
 
 ---
 
