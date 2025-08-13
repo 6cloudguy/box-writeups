@@ -71,6 +71,6 @@ Since I have the root, i printed the `proof.txt` flag\
 | FTP is your friend             | FTP enabled me to transfer binaries/PoCs mid-exploit, bypassing web upload limitations.                      |
 
 ---
-#### Note
+#### Note: 
 After completing the box, i went and searched for other writeups and found that others also use the VM directly.. So i think it is safe to assume that it was meant to be that way.
 - Another one down, more to go🎯.
