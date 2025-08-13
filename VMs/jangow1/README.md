@@ -16,7 +16,7 @@ First lets access the apache and see what it has to offer. And it seems that the
 Now lets ffuf the dirs to see if there are any hidden dirs.
 ![img](./ss/ffuf.png)\
 From this we can suspect that this is a wordpress made server.\
-Now lets dig into the site a bit more. And in the nav-bar(menu), there are "About","Projects",and "Buscar"..... That felt off. So i googled it and sound that it meant search.
+Now lets dig into the site a bit more. And in the nav-bar(menu), there are "About","Projects",and "Buscar"..... That felt off. So i googled it and sound that it meant search.\
 Clicked it. Nothing popped up. \
 ![img](./ss/buscar.png)\
 But we can see that in the url... there is a possible attack vector. So lets play with it for a min and check if we can find anything.\
@@ -24,14 +24,14 @@ And BOOM!\
 When i tried `whoami` in it, it popped `www-data`\
 ![img](./ss/whoami.png)\
 With this, we can understand that there is command injection vulnerability here.\
-So lets dig more deeper to try and look for any creds to do ftp..
-lets first check the wordpress dir
+So lets dig more deeper to try and look for any creds to do ftp..\
+lets first check the wordpress dir\
 ![img](./ss/wordpress.png)\
 ![img](./ss/conf.png)\
-This gave me blank screen... i was stuck for a sec there and it was later it struck me that the config was php... So we have to check the source of this page.
+This gave me blank screen... i was stuck for a sec there and it was later it struck me that the config was php... So we have to check the source of this page.\
 ![img](./ss/creds.png)\
-Which gave us important stuff... username:`desafio02` and password: `abygurl69`.
-When i tried logging into ftp with this cred... it didnt work.
+Which gave us important stuff... username:`desafio02` and password: `abygurl69`.\
+When i tried logging into ftp with this cred... it didnt work.\
 ![img](./ss/desaf.png)\
 So lets dig more..\
 I tried getting the etc\passwd and guess what...\
