@@ -1,6 +1,6 @@
 # 🔍 Writeups
 
-Writeups and technical breakdowns of **CTF-style boxes** from platforms like [VulnHub](vulnhub.com), [Hack The Box](https://hackthebox.com), etc.
+Writeups and technical breakdowns of **CTF-style boxes** from platforms like [VulnHub](https://vulnhub.com), [Hack The Box](https://hackthebox.com), etc.
 
 - 🛠️ Enumeration & Recon
 - 🎯 Exploitation Techniques
