@@ -33,8 +33,7 @@ GIF89a;
 
 testgif
 ```
-<font color=green size= 5> I put 84 here which was a mistake, the correct version is 89. I corrected it while uploading later on. 
-The correct format is<font color=red> "GIF89a"</font></font>\
+#### I put 84 here which was a mistake, the correct version is 89. I corrected it while uploading later on. The correct format is"GIF89a"\
 ![img](ss/echo.png)\
 Upload the the gif and capture the request.\
 Lets modify the request\
@@ -76,7 +75,7 @@ Connection: keep-alive
 Content-Disposition: form-data; name="Upload"; filename="tst.gif"
 Content-Type: image/gif
 
-GIF84a;
+GIF89a;
 testgif
 
 ------WebKitFormBoundarycr7UE9hKBNCk6ZcO
