@@ -15,10 +15,11 @@ All writeups are created for **educational purposes** only.
 
 |       Box Name        | Difficulty |    OS   |                     Writeup Link                    |                        Box link                               |
 |-----------------------|------------|---------|-----------------------------------------------------|---------------------------------------------------------------|
+|Stuttered              | Medium     | Linux   | [Click here](htb/strutted/README.md)                | [Click here](https://app.hackthebox.com/machines/Strutted)    |
 | Me & My Girlfriend 1  |    Easy    |  Linux  | [Click here](VMs/Me_and_My_Girlfriend_1/README.md)  | [Click here](https://www.vulnhub.com/entry/me-and-my-girlfriend-1,409/)|
 | Jangow01              | Easy       | Linux   | [Click here](VMs/jangow1/README.md)                 | [Click here](https://www.vulnhub.com/entry/jangow-101,754/)   |
-|Stuttered              | Medium     | Linux   | [Click here](htb/strutted/README.md)                | [Click here](https://app.hackthebox.com/machines/Strutted)    |
-|Editor                 | Easy       | Linux   | [Click here](htb/editor/README.md)                  | [Click here](https://app.hackthebox.com/machines/Editor)    |
+|Editor                 | Easy       | Linux   | [Click here](htb/editor/README.md)                  | [Click here](https://app.hackthebox.com/machines/Editor)      |
+|Artificial             | Easy       | Linux   | [Click here](htb/aritificial/README.md)             | [Click here](https://app.hackthebox.com/machines/Artificial)  |
 
 ---
 
