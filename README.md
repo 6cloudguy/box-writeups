@@ -22,7 +22,7 @@ All writeups are created for **educational purposes** only.
 |Artificial             | Easy       | Linux   | [Click here](htb/aritificial/README.md)             | [Click here](https://app.hackthebox.com/machines/Artificial)  |
 
 ---
-Note: Editor and Artificial was removed because they are still active
+Note: Editor was removed because it is still active
 ## ⚠️ Disclaimer
 
 - All content is shared to support **learning and ethical hacking**.
